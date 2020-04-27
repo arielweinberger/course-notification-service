@@ -17,3 +17,7 @@ provider:
 functions:
   sendMail:
     handler: src/handlers/sendMail.handler
+
+custom:
+  bundle:
+    linting: false
